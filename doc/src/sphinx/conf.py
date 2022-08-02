@@ -30,7 +30,7 @@ html_theme_options = {
 }
 
 project = 'Util'
-copyright = '{} Twitter, Inc'.format(datetime.datetime.now().year)
+copyright = f'{datetime.datetime.now().year} Twitter, Inc'
 htmlhelp_basename = "util"
 release = sbt_versions.find_release(os.path.abspath('../../../project/Build.scala'))
 version = sbt_versions.release_to_version(release)
